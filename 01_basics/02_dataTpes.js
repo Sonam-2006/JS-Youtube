@@ -22,5 +22,5 @@ let isLoggedIn = false
 
 //object 
 
-console.log(typeof null); //obeject
+// console.log(typeof null); //obeject
 
