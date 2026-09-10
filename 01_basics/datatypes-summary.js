@@ -30,3 +30,22 @@ console.log(typeof myObj); //onject
 
 
 //  JavaScript is a dynamically typed language.
+///++++++++++++++++++++++++++++++++++++MEMORY+++++++++++++++++++++++++++++++++++
+//Stack (Primitive), --->copy milti hai 
+// Heap(Non-Primitive) ---->original value milti hai
+
+let myYoutubename= "sonamYadav"
+let anotherName = "Sonam"
+console.log(myYoutubename)
+console.log(anotherName);
+
+
+let userOne={
+    email:"user@google.com",
+    upi:"user@upi"
+}
+
+let userTwo=userOne
+userTwo.email="sona@gmaail.com"
+console.log(userOne.email); //sona@gmaail.com
+console.log(userTwo.email); //sona@gmaail.com
